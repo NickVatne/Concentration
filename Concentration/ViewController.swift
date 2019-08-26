@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         }
     }
 
-    var emojiChoices = ["👻","🎃","🎃","🕸","👻","🕸"]
+    var emojiChoices = ["👻","🎃","🎃","🕸","👻","🕸", "🤡", "🤡", "🤡","👾","👾","💀","💀","👽","👽", "🤮","🤮","🤖","🤖"]
     
     var emoji =  Dictionary<Int,String>()
 
@@ -72,7 +72,7 @@ class ViewController: UIViewController {
 
     }
     @IBAction func newGameButton(_ sender: UIButton) {
-        var game = Concentration(numberOfPairsOfCards: (cardButtons.count + 1 / 2) )
+        game = Concentration(numberOfPairsOfCards: (cardButtons.count + 1 / 2) )
     }
     
 }
